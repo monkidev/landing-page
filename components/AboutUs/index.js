@@ -40,10 +40,10 @@ const AboutUs = () => {
       </div>
       <p>
         A Monkidev nasceu de uma vontade de desenvolver soluções para melhorar a
-        vida dos clientes, sendo assim algumas já estão no mercado como o
+        vida dos nossos clientes, sendo assim algumas já estão no mercado como o
         sistema <span>Edonix</span> para escolas e o <span>Mais Catálogo</span>{" "}
         para empresas que querem listar seus produtos e serviços de forma
-        online.
+        online, melhorando o contato com o público.
       </p>
     </Container>
   );

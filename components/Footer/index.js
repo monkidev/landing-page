@@ -17,10 +17,11 @@ const Container = styled.div`
   }
 
   @media screen and (max-width: 900px) {
+  padding: 0px 0px;
     a {
       margin-top: 35px;
       margin-left: 15%;
-      font-size: 25px;
+      font-size: 22px;
     }
   }
 `;
@@ -28,7 +29,7 @@ const Container = styled.div`
 const Footer = () => {
   return (
     <Container
-      id="contact"
+      id="footer"
       className="container d-flex flex-wrap justify-content-center align-items-center"
     >
       <div className="col-12 col-md-6 d-flex justify-content-center">
@@ -36,10 +37,10 @@ const Footer = () => {
       </div>
       <div className="d-flex flex-column col-12 col-md-6 d-flex justify-content-center ">
         <a target="_blank" href="https://instagram.com/monkidev">
-          <FaInstagram size={60} /> @monkidev
+          <FaInstagram size={40} /> @monkidev
         </a>
         <a target="_blank" href="https://github.com/monkidev">
-          <FaGithub size={60} /> github.com/monkidev
+          <FaGithub size={40} /> github.com/monkidev
         </a>
       </div>
     </Container>

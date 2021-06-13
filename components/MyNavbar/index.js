@@ -4,6 +4,7 @@ import styled from "styled-components";
 import { smoothScrollTo } from "../../utils";
 
 const Nav = styled.nav`
+  z-index: 2;
   .nav-link {
     font-family: "Lato";
     font-weight: 900;

@@ -39,7 +39,7 @@ const Container = styled.div`
 const ProductsHome = () => {
   return (
     <Container id="products" className="container d-flex flex-column justify-content-center align-items-center">
-      <a href="https:/edonix.org" target="_blank" className="edonix col-12 d-flex flex-column justify-content-center align-items-center">
+      <a href="https://edonix.org" target="_blank" className="edonix col-12 d-flex flex-column justify-content-center align-items-center">
         <img src="/images/edonix.png" />
         <h1>Sistema Edonix</h1>
         <p>
@@ -48,7 +48,7 @@ const ProductsHome = () => {
         </p>
       </a>
 
-      <a href="https:/maiscatalogo.com" target="_blank" className="mais-catalogo col-12 d-flex flex-column justify-content-center align-items-center">
+      <a href="https://maiscatalogo.com" target="_blank" className="mais-catalogo col-12 d-flex flex-column justify-content-center align-items-center">
         <img src="/images/mais-catalogo.png" />
         <h1>Mais Catálogo</h1>
         <p>

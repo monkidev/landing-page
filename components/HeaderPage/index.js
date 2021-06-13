@@ -3,6 +3,7 @@ import { FaChevronDown } from "react-icons/fa";
 import { useCallback, useEffect, useState } from "react";
 import { smoothScrollTo } from "../../utils";
 const Container = styled.nav`
+  z-index: 2;
   min-height: calc(100vh - 117px);
   position: relative;
 

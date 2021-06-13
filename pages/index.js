@@ -5,11 +5,13 @@ import { useEffect } from "react";
 import ProductsHome from "../components/ProductsHome";
 import AboutUs from "../components/AboutUs";
 import Footer from "../components/Footer";
+import Contact from "../components/Contact";
 
 export default function Home() {
   const effect = () => {
     const q = document.getElementById("q");
     q.style.position = "fixed";
+    q.style.zIndex = "1";
     const s = window.screen;
     const w = (q.width = s.width);
     const h = (q.height = s.height);
